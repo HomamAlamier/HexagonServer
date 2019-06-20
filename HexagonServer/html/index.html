@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome !</title>
+  <style>
+  * {
+  overflow: hidden;
+
+}
+
+body{
+  background: #373737 url("../img/bg.png") 0 0 repeat;
+  color: teal;
+}
+h1{
+
+  display: flex;
+  justify-content: center;
+  font-size: 66px;
+  cursor: pointer;
+  transition: all .5s;
+}
+h1:hover{
+  letter-spacing: 8px;
+  color: rgb(11, 163, 163);
+}
+a{
+ 
+  text-decoration: none;
+  color: #fff;
+  transition: all .5s;
+  font-size: 35px;
+
+}
+a.down{
+  position: fixed;
+  left: 0%;
+  top: 93%;
+}
+a:nth-child(2){
+  top: 45%;
+}
+a:hover{
+  color: rgb(64, 158, 158);
+}
+</style>
+  
+</head>
+
+<body>
+
+  <h1>Welcome !</h1>
+<center><a href="login.html">-Start New Game-</a></center>
+<a class="down" href="games/hexapawn.zip" download>Download The Game</a>
+</body>
+
+</html>

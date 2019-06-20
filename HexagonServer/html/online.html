@@ -1,0 +1,93 @@
+<html>
+    <head>
+    <iframe name="ifr" width="0" height="0"></iframe>
+    <title>{0} online player's</title>
+    <style>
+    fieldset
+    {text-align: center;
+    width: 200px;
+    border: solid;
+    border-color: black;
+    background-color: cadetblue;
+    height: 100%;
+    }
+    h4{
+         display: inline;
+         }
+         a:hover{color: blue;}a:active{color:red;}a{color: green;transition: all .5s;}
+         #div1{
+             float: right;
+             height: 85%;
+             
+         }
+         #dD{
+             float: left;
+             position: fixed;
+             left: 0;
+             top: 95%;
+         }
+         #bC{
+             position: relative;
+             left: 20;
+             bottom: 60;
+             width: 100;
+             height: 30;
+             border-radius: 30%;
+             border: 1px solid rgb(9, 214, 9);
+             background-color: rgb(9, 214, 9);
+             transition: all .5s;
+         }
+         #bC:hover
+         {
+             background-color: greenyellow;
+             border-color: greenyellow;
+         }
+         #bC:active
+         {
+             background-color: rgb(55, 184, 55);
+             border-color: rgb(55, 184, 55);
+         }
+         input{
+             left:20;
+         }
+         </style></head>
+         <body>
+             
+             <div id="div1">
+             <center><form action="connect" method="GET">
+                 <fieldset>
+                     <legend>Online List</legend>
+                     {1}
+                     <br>
+                    </center>   <input type="submit" value="Connect" id="bC">
+           </fieldset></form><h2><a id="dD" href="{2}" download>Your Fix Key(If the game dont launch)</a></h2>
+                
+            </div>
+            <div id="div2">
+                <h1 id="wtext">Waiting....</h1>
+            </div>
+            <script type="text/javascript">
+                var z = {3};
+                    if (z == 1) window.open('{4}','ifr');
+                    var milli = 4000;var o = 3;
+                    setTimeout(function(){window.open('online.html','_self')},milli);
+                    var p = document.getElementById("div1");    
+                    var p2 = document.getElementById("div2");
+                    var w = document.getElementById("wtext");
+                    if (z == 1)
+                       { p.style.visibility = "hidden"; start(0);}
+                    else
+                        p2.style.visibility = "hidden";
+                        function start(c){
+                        if (c < 3){
+                    setTimeout(function(){
+                        w.textContent = "Refreshing after " + o + " seconds...";
+                        o = parseInt(o) - 1 ;
+                        c++;
+                        start(c);
+                    },1000);
+                        }
+                    }
+            </script>     
+            </body>
+            </html>
