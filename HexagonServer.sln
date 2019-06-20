@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28711.60
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HexagonServer", "HexagonServer\HexagonServer.csproj", "{9EAEC0C0-48DD-4CCF-A6EA-5074C07FEBDA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9EAEC0C0-48DD-4CCF-A6EA-5074C07FEBDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EAEC0C0-48DD-4CCF-A6EA-5074C07FEBDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EAEC0C0-48DD-4CCF-A6EA-5074C07FEBDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EAEC0C0-48DD-4CCF-A6EA-5074C07FEBDA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {52994D09-24DA-4050-96A5-E8A4E818E244}
+	EndGlobalSection
+EndGlobal
